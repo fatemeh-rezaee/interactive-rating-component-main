@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 20px;
+  border-radius: 20px;
+}
+.card-container {
+  padding: 10px;
+}
+.card-header img {
+  background-color: hsl(216, 12%, 22%);
+  padding: 10px;
+  border-radius: 100%;
+}
+.title{
+  margin-bottom: 15px;
+}
+.card-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.paragraph{
+  color: hsl(217, 12%, 63%);
+}
+.btn-container {
+  margin-bottom: 20px;
+}
+.btn{
+ width: 45px;
+  height: 45px;
+  background-color: hsl(216, 12%, 22%);
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  margin: 8px;
+  color: hsl(217, 12%, 63%);
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.btn:focus {
+  background-color:hsl(217, 12%, 63%);
+  color: white;
+}
+.submit-btn {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  background: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 25px;
+  font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.hide {
+  display: none;
+}
+.card-container2 {
+  text-align: center;
+  padding: 5px;
+}
+.span{
+  background-color: hsl(216, 12%, 22%);
+  color: hsl(25, 97%, 53%);
+  padding: 10px;
+  margin: 0 80px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.title2{
+margin-bottom: 10px;
+}
